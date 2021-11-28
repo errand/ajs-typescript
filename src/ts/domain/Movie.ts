@@ -1,11 +1,14 @@
 import IBuyable from './iBuyable';
 
+/** @implements {IBuyable} */
 export default class Movie implements IBuyable {
     constructor(
+        /** @readonly */
         readonly id: number,
         readonly name: string,
         readonly slogan: string,
         readonly price: number,
-        readonly pages: number,
+        readonly tags: string[],
+        readonly duration: number,
     ) {}
 }

@@ -18,6 +18,7 @@
         "no-unused-vars": "off",
         "no-underscore-dangle": "off",
         "max-len": "off",
-        "arrow-parens": "off"
+        "arrow-parens": "off",
+        "no-unexpected-multiline": "error"
     }
 }
